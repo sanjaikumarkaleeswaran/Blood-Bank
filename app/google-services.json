@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258538485259",
+    "project_id": "login-for-blooddonor",
+    "storage_bucket": "login-for-blooddonor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258538485259:android:54683dea34da1e5566390e",
+        "android_client_info": {
+          "package_name": "com.example.bloodlogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2SXrHYVh2728GT7oHA1NF-7jRn7iFgrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

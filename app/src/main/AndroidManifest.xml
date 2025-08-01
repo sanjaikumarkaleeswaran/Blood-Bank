@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".reg2"
+            android:exported="false" />
+        <activity
+            android:name=".hsel"
+            android:exported="false" />
+        <activity
+            android:name=".sechosblood"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".soneg"
+            android:exported="false" />
+        <activity
+            android:name=".sbneg"
+            android:exported="false" />
+        <activity
+            android:name=".sbpos"
+            android:exported="false" />
+        <activity
+            android:name=".sabneg"
+            android:exported="false" />
+        <activity
+            android:name=".sabpos"
+            android:exported="false" />
+        <activity
+            android:name=".sa2bneg"
+            android:exported="false" />
+        <activity
+            android:name=".sa2bpos"
+            android:exported="false" />
+        <activity
+            android:name=".sa2neg"
+            android:exported="false" />
+        <activity
+            android:name=".sa2pos"
+            android:exported="false" />
+        <activity
+            android:name=".sa1bneg"
+            android:exported="false" />
+        <activity
+            android:name=".sa1bpos"
+            android:exported="false" />
+        <activity
+            android:name=".sa1neg"
+            android:exported="false" />
+        <activity
+            android:name=".sa1pos"
+            android:exported="false" />
+        <activity
+            android:name=".saneg"
+            android:exported="false" />
+        <activity
+            android:name=".sapos"
+            android:exported="false" />
+        <activity
+            android:name=".sopos"
+            android:exported="false" />
+        <activity
+            android:name=".SELAMdonors"
+            android:exported="false" />
+        <activity
+            android:name=".toneg"
+            android:exported="false" />
+        <activity
+            android:name=".topos"
+            android:exported="false" />
+        <activity
+            android:name=".tbneg"
+            android:exported="false" />
+        <activity
+            android:name=".tbpos"
+            android:exported="false" />
+        <activity
+            android:name=".tabneg"
+            android:exported="false" />
+        <activity
+            android:name=".tabpos"
+            android:exported="false" />
+        <activity
+            android:name=".ta2bneg"
+            android:exported="false" />
+        <activity
+            android:name=".ta2bpos"
+            android:exported="false" />
+        <activity
+            android:name=".ta2neg"
+            android:exported="false" />
+        <activity
+            android:name=".ta2pos"
+            android:exported="false" />
+        <activity
+            android:name=".ta1bneg"
+            android:exported="false" />
+        <activity
+            android:name=".ta1bpos"
+            android:exported="false" />
+        <activity
+            android:name=".ta1neg"
+            android:exported="false" />
+        <activity
+            android:name=".ta1pos"
+            android:exported="false" />
+        <activity
+            android:name=".taneg"
+            android:exported="false" />
+        <activity
+            android:name=".tapos"
+            android:exported="false" />
+        <activity
+            android:name=".coneg"
+            android:exported="false" />
+        <activity
+            android:name=".copos"
+            android:exported="false" />
+        <activity
+            android:name=".cbneg"
+            android:exported="false" />
+        <activity
+            android:name=".cbpos"
+            android:exported="false" />
+        <activity
+            android:name=".cabneg"
+            android:exported="false" />
+        <activity
+            android:name=".cabpos"
+            android:exported="false" />
+        <activity
+            android:name=".ca2bneg"
+            android:exported="false" />
+        <activity
+            android:name=".ca2bpos"
+            android:exported="false" />
+        <activity
+            android:name=".ca2pos"
+            android:exported="false" />
+        <activity
+            android:name=".ca1bneg"
+            android:exported="false" />
+        <activity
+            android:name=".ca1bpos"
+            android:exported="false" />
+        <activity
+            android:name=".ca1neg"
+            android:exported="false" />
+        <activity
+            android:name=".ca1pos"
+            android:exported="false" />
+        <activity
+            android:name=".caneg"
+            android:exported="false" />
+        <activity
+            android:name=".capos"
+            android:exported="false" />
+        <activity
+            android:name=".eabneg"
+            android:exported="false" />
+        <activity
+            android:name=".eabpos"
+            android:exported="false" />
+        <activity
+            android:name=".ea2bneg"
+            android:exported="false" />
+        <activity
+            android:name=".ea2bpos"
+            android:exported="false" />
+        <activity
+            android:name=".ea2neg"
+            android:exported="false" />
+        <activity
+            android:name=".ea2pos"
+            android:exported="false" />
+        <activity
+            android:name=".ea1bneg"
+            android:exported="false" />
+        <activity
+            android:name=".ea1bpos"
+            android:exported="false" />
+        <activity
+            android:name=".ea1neg"
+            android:exported="false" />
+        <activity
+            android:name=".ea1pos"
+            android:exported="false" />
+        <activity
+            android:name=".eoneg"
+            android:exported="false" />
+        <activity
+            android:name=".eopos"
+            android:exported="false" />
+        <activity
+            android:name=".ebneg"
+            android:exported="false" />
+        <activity
+            android:name=".ebpos"
+            android:exported="false" />
+        <activity
+            android:name=".eaneg"
+            android:exported="false" />
+        <activity
+            android:name=".eapos"
+            android:exported="false" />
+        <activity
+            android:name=".TIRUPPURdonors"
+            android:exported="false" />
+        <activity
+            android:name=".CBEdonors"
+            android:exported="false" />
+        <activity
+            android:name=".eroaddonors"
+            android:exported="false" />
+        <activity
+            android:name=".hoosselect"
+            android:exported="false" />
+        <activity
+            android:name=".selectdistrict"
+            android:exported="false" />
+        <activity
+            android:name=".a1posdonor"
+            android:exported="false" />
+        <activity
+            android:name=".onegdonor"
+            android:exported="false" />
+        <activity
+            android:name=".oposdonor"
+            android:exported="false" />
+        <activity
+            android:name=".a1bposdonor"
+            android:exported="false" />
+        <activity
+            android:name=".abposdonor"
+            android:exported="false" />
+        <activity
+            android:name=".bnegitivedonor"
+            android:exported="false" />
+        <activity
+            android:name=".bpostivedonor"
+            android:exported="false" />
+        <activity
+            android:name=".aNegdonor"
+            android:exported="false" />
+        <activity
+            android:name=".aPosdonor"
+            android:exported="false" />
+        <activity
+            android:name=".selectdistrict"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".doonorlauncher"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".ui.splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
